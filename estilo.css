@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../site\ de\ noticias/imagens/fundo.png) repeat-x;
+}
+/* gerais */
+#ativo{
+    color: #fff;;
+    border: 1px solid #fa2763;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+#principal{
+    width: 750px;
+    margin: 0 auto;
+}
+#tres-colunas #centro{
+    width: 48%;
+}
+#duas-colunas #centro{
+    width: 100%;
+}
+#uma-colunas #centro, #uma-colunas #news{
+    width: 100%;
+}
+img{
+    border: 1px solid #dfdfdf;
+}
+.box{
+    background: #f3f3f3 url(../site\ de\ noticias/imagens/fundo-caixa.png);
+    padding: 5px;
+}
+.assunto{
+    background: #fff;
+    padding: 5px;
+}
+
+#form, #mundo, #not_recentes {
+    margin-top: 10px;
+}
+.titulo{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 6px;
+}
+#lateral, #centro, #lado{
+    margin-top: 30px;
+}
+li{
+    display: list-item;
+}
+
+
+/*cabeçalho */
+#topo{
+    height: 150px;
+    background: url(../site\ de\ noticias/imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 30px;
+}
+.logo{
+ width: 152px;
+ height: 66px;
+ background: url(../site\ de\ noticias/imagens/logo.png) no-repeat center ;
+ text-indent: -3000px;
+}
+/* barra de navegação */
+
+#topo ul{
+    margin: 0;
+    margin-top: 30px;
+    list-style-type: none;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#topo ul a{
+    text-decoration: none;
+    color: #fff;
+}
+#topo ul li{
+    background-color: #b10333;
+}
+#topo ul a{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background: url(../site\ de\ noticias/imagens/divisor.png) no-repeat right;
+    cursor: pointer;
+}
+#topo ul a:hover{
+    color: #520b1f ;
+}
+
+/*** estilo do conteudo lateral esquerdo ***/
+#lateral{
+    width: 24%;
+}
+#conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* parte dos links */
+#lista{
+    list-style-type: none;
+}
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+#lista li{
+    padding: 5px;
+}
+#lateral ul a:hover{
+    background: #f9f9f9 url(../site\ de\ noticias/imagens/marcador.png)no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+/* parte do formulário */
+input, label{
+    padding: 4px;
+    width: 155px;
+}
+button{
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 4px;
+    color: #fff;
+    background: #b10333;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: transform 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+/* parte das noticias */
+#news{
+    width: 73%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leiamais{
+    color: #b10333;
+}
+
+/*parte do centro */
+
+.frase{
+    background: #b10333;
+    color: #fff;
+    display: inline;
+    padding: 2px;
+}
+.caixas_new li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+.caixas_new li a img{
+    float: left;
+    margin: 5px;
+}
+.caixas_new li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+.caixas_new li a p{
+    font-size: 0.7em;
+}
+.caixas_new li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+
+/*parte do lado esquerdo*/
+#lado{
+    width: 47%;
+}
+.p{
+    background: #de003e;
+    font-size: 0.8em;
+    padding: 2px;
+    display: inline;
+}
+
+#caixa-rod{
+    background: #294c71;
+    padding: 20px;
+    margin-top: 40px;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
